@@ -1,2 +1,8 @@
 # cyclejs-kefir
-A Kefir adapter for CycleJS
+
+A Kefir.js adapter and run function for CycleJS
+
+
+## Install
+
+`npm i cyclejs-kefir --save`
