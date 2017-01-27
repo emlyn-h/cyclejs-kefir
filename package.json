@@ -1,0 +1,36 @@
+{
+  "name": "cyclejs-kefir",
+  "version": "1.0.0",
+  "description": "A cycles.js stream adapter for Kefir",
+  "main": "lib/run.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emlyn-h/cyclejs-kefir.git"
+  },
+  "keywords": [
+    "cycles",
+    "cyclesjs",
+    "kefir",
+    "adapter"
+  ],
+  "author": "Emlyn Hughes <npm@wkds.co.nz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emlyn-h/cyclejs-kefir/issues"
+  },
+  "homepage": "https://github.com/emlyn-h/cyclejs-kefir#readme",
+  "devDependencies": {
+    "@cycle/base": "^4.3.0",
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "kefir": "^3.7.1"
+  },
+  "peerDependencies": {
+    "kefir": "*"
+  }
+}
