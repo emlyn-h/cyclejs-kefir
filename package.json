@@ -1,6 +1,6 @@
 {
   "name": "cyclejs-kefir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cycles.js stream adapter for Kefir",
   "main": "lib/run.js",
   "scripts": {
