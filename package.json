@@ -32,5 +32,8 @@
   },
   "peerDependencies": {
     "kefir": "*"
+  },
+  "dependencies": {
+    "@cycle/base": "^4.3.0"
   }
 }
